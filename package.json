@@ -9,13 +9,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.18",
+    "@expo/metro-runtime": "~3.2.1",
+    "@react-three/fiber": "^8.16.8",
+    "@types/three": "^0.166.0",
+    "expo": "^51.0.0",
+    "expo-gl": "~14.0.2",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.3",
     "react-dom": "18.2.0",
+    "react-native": "0.74.3",
     "react-native-web": "~0.19.10",
-    "@expo/metro-runtime": "~3.2.1"
+    "three": "^0.166.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
